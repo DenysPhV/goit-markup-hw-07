@@ -1,11 +1,16 @@
-.section-advantage {
-  padding-top: 94px;
-
-  max-width: var(--max-width);
-  margin: var(--margin);
+.advantage__list {
+  display: flex;
 }
 
-.advantage-title {
+.advantage__item {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.advantage__title {
   color: var(--color-conten);
 
   font-weight: 700;
@@ -16,20 +21,8 @@
   margin-bottom: 10px;
 }
 
-.advantage-rubric {
+.advantage__rubric {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-}
-
-.advantage-list {
-  display: flex;
-}
-
-.advantage-item {
-  width: 270px;
-}
-
-.advantage-item:not(:last-child) {
-  margin-right: 30px;
 }

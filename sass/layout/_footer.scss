@@ -1,72 +1,37 @@
-.section-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-
-  margin: var(--margin);
-}
-
 .footer {
   background-color: var(--background-dark);
 }
 
-.footer-address {
+.footer__address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer__descr {
   color: var(--white-color);
 }
 
-.footer-list {
+.footer__list {
   margin-top: 20px;
 }
 
-.footer-link {
+.footer__item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer__link {
   color: var(--rgba-link);
 }
 
-.footer-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.footer-container {
-  display: flex;
-  align-items: baseline;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.nav-footer-social {
-  margin-left: 70px;
-}
-
-.social-title {
-  color: var(--white-color);
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.footer-social-list {
-  display: flex;
-  margin-top: 20px;
-}
-
-.footer-social-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer-icon {
-  fill: var(--white-color);
-}
-
-.social-link:hover .footer-icon,
-.social-link:focus .footer-icon {
-  fill: var(--white-color);
-}
-
+// footer form
 .footer-form {
   margin-left: 80px;
 }
 
-.footer-form-description {
+.footer-form__description {
   display: inline-block;
 
   font-weight: 700;
@@ -80,11 +45,11 @@
   margin-bottom: 20px;
 }
 
-.form-contfiner {
+.footer-form__container {
   display: inline-flex;
 }
 
-.footer-input {
+.footer-form__input {
   min-width: 358px;
 
   padding-top: 15px;
@@ -97,14 +62,14 @@
   border-radius: 4px;
 
   transition: border-color 250ms var(--transition-property);
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+  }
 }
 
-.footer-input:focus {
-  outline: none;
-  border-color: var(--accent-primary);
-}
-
-.footer-form-btn {
+.footer-form__btn {
   display: flex;
   justify-content: center;
 
@@ -127,14 +92,14 @@
   background-color: var(--accent-primary);
   color: var(--white-color);
   transition: background-color 250ms var(--transition-property);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-secondary);
+  }
 }
 
-.footer-form-btn:hover,
-.footer-form-btn:focus {
-  background-color: var(--accent-secondary);
-}
-
-.footer-form-icon {
+.footer-form__icon {
   fill: var(--white-color);
   margin-left: 10px;
 }
