@@ -1,5 +1,3 @@
-/* Белый цвет - #ffffff */
-/* Черный цвет - #000000 */
 /* Основной акцент - #2196f3 */
 /* Второстипенный акцент - #188ce8 */
 /* Фон темный - #2f303a */
@@ -10,8 +8,6 @@
 /* фикс ширина max-width */
 /* Центрирование для секций margin */
 :root {
-  --white-color: #ffffff;
-  --black-color: #000000;
   --accent-primary: #2196f3;
   --accent-secondary: #188ce8;
   --background-dark: #2f303a;
@@ -28,3 +24,20 @@
 
   --transition-property: cubic-bezier(0.4, 0, 0.2, 1);
 }
+// main colors
+$white: #ffffff;
+$black: #000000;
+
+// набор для шрифта
+$main-font: 'Roboto', sans-serif;
+$main-font-size: 14px;
+
+// font-weight
+$main-weight: 400;
+$secondary-weight: 500;
+$main-title: 700;
+$main-heading: 900;
+
+// letter-spacing
+$main-ls: 0.03em;
+$heading-ls: 0.06em;

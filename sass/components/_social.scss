@@ -30,7 +30,7 @@
 
   .social-link:hover &,
   .social-link:focus & {
-    fill: var(--white-color);
+    fill: $white;
   }
 }
 
@@ -40,10 +40,8 @@
 }
 
 .footer__social-title {
-  color: var(--white-color);
-  font-size: 14px;
+  color: $white;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -59,10 +57,10 @@
 }
 
 .footer__social-icon {
-  fill: var(--white-color);
+  fill: $white;
 
   .social-link:hover &,
   .social-link:focus & {
-    fill: var(--white-color);
+    fill: $white;
   }
 }

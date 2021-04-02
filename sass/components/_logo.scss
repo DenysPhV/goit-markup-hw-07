@@ -1,8 +1,8 @@
 .logo {
-  color: var(--black-color);
+  color: $black;
 
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: $main-title;
   font-size: 26px;
   line-height: 1.19;
 
@@ -11,7 +11,7 @@
   padding-bottom: 25px;
 
   &__dark {
-    color: var(--black-color);
+    color: $black;
   }
 
   &__decor {
@@ -19,6 +19,6 @@
   }
 
   &__light {
-    color: var(--white-color);
+    color: $white;
   }
 }

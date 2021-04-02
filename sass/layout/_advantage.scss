@@ -13,8 +13,7 @@
 .advantage__title {
   color: var(--color-conten);
 
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: $main-title;
   line-height: 1.14;
   text-transform: uppercase;
 
@@ -22,7 +21,6 @@
 }
 
 .advantage__rubric {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: $main-weight;
   line-height: 1.71;
 }

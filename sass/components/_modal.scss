@@ -27,7 +27,7 @@
   border-radius: 50%;
   cursor: pointer;
 
-  background-color: var(--white-color);
+  background-color: $white;
   border: 1px solid var(--icon-border-color);
 }
 
@@ -54,7 +54,7 @@
   width: 528px;
   height: 581px;
 
-  background-color: var(--white-color);
+  background-color: $white;
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -73,7 +73,6 @@
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-conten);
 }
 
@@ -178,7 +177,7 @@
     height: 16px;
 
     margin-right: 8px;
-    border: 1px solid var(--black-color);
+    border: 1px solid $black;
     border-radius: 2px;
   }
 
@@ -215,7 +214,7 @@
   border: transparent;
   cursor: pointer;
 
-  color: var(--white-color);
+  color: $white;
   background-color: var(--accent-primary);
 
   transition: background-color 250ms var(--transition-property);

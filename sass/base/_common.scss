@@ -1,8 +1,9 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: $main-font;
+  font-size: $main-font-size;
   font-weight: 400;
   color: var(--main-text);
-  letter-spacing: 0.03em;
+  letter-spacing: $main-ls;
 }
 
 h1,

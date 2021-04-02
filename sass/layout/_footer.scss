@@ -4,12 +4,11 @@
 
 .footer__address {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
 }
 
 .footer__descr {
-  color: var(--white-color);
+  color: $white;
 }
 
 .footer__list {
@@ -40,7 +39,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--white-color);
+  color: $white;
 
   margin-bottom: 20px;
 }
@@ -56,7 +55,7 @@
   padding-bottom: 15px;
   padding-left: 16px;
 
-  color: var(--white-color);
+  color: $white;
   background-color: var(--background-dark);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -78,11 +77,10 @@
   padding-bottom: 10px;
   margin-left: 12px;
 
-  font-family: inherit;
-  font-weight: 700;
+  font-weight: $main-title;
+  letter-spacing: $heading-ls;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.06em;
 
   cursor: pointer;
 
@@ -90,7 +88,7 @@
   border: transparent;
 
   background-color: var(--accent-primary);
-  color: var(--white-color);
+  color: $white;
   transition: background-color 250ms var(--transition-property);
 
   &:hover,
@@ -100,6 +98,6 @@
 }
 
 .footer-form__icon {
-  fill: var(--white-color);
+  fill: $white;
   margin-left: 10px;
 }

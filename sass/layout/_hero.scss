@@ -16,15 +16,15 @@
 }
 
 .hero-title {
-  color: var(--white-color);
+  color: $white;
   width: 700px;
   height: 160px;
   margin: 0 auto;
 
-  font-weight: 900;
+  font-weight: $main-heading;
+  letter-spacing: $heading-ls;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -45,7 +45,7 @@
   cursor: pointer;
 
   background-color: var(--accent-primary);
-  color: var(--white-color);
+  color: $white;
 
   transition: color 250ms var(--transition-property),
     background-color 250ms var(--transition-property);
@@ -54,5 +54,5 @@
 .btn-hero:hover,
 .btn-hero:focus {
   background-color: var(--accent-secondary);
-  color: var(--white-color);
+  color: $white;
 }
